@@ -1,0 +1,49 @@
+.header{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.header h2{
+    background-color: navajowhite;
+}
+#data{
+    padding-left:130px;
+}
+#tasks {
+    text-align: left;
+    border: black;
+    border-radius: 5px;
+    border-collapse: collapse;
+    width: 80%;
+    border-left: 5px;
+    border-right: 5px;
+    
+}
+#tasks th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    
+}
+
+#tasks td,#tasks th {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+#tasks tr:nth-child(even){background-color: #f2f2f2;}
+#tasks tr:hover {background-color: #ddd;
+}
+.icons{
+    align-items:center;
+    font-size:xx-large ;
+    color:#f44336;
+    
+    cursor:wait;
+    
+}
+form{
+    position: relative;
+    padding-top: 0%;
+}

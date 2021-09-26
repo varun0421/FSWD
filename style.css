@@ -1,0 +1,52 @@
+.tasks{
+    font-size:x-large;
+    margin-left: 10%;
+}
+.tasks h1{
+    margin-top: 0%;
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+    font: bold ;
+    padding-bottom: 20px;
+
+}
+#row h3{
+    margin: 0%;
+    text-align:center;
+
+}
+.icons{
+    font-size:xx-large ;
+    color:#f44336;
+    padding-right: 10px;
+    cursor:wait;
+    
+}
+.tasks{
+    width:60%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+  
+}
+#leftbox {
+    float:left; 
+    text-align:left;
+   
+    width:50%;
+    height:280px;
+}
+#rightbox{
+    float:right; 
+    text-align:left;
+    width:50%;
+    height:280px;
+}    
+form{
+    position: relative;
+    padding-top: 0%;
+}
+#row{
+    padding-top: 20px;
+    padding-left: 50px;
+}
