@@ -12,7 +12,7 @@
             display: flex;
             align-items: stretch;
             background-color: #111;
-            height: 400px;
+            height: 100vh;
         }
         
         div.child {
@@ -24,7 +24,26 @@
             background-color: crimson;
             flex-basis: 20%;
         }
+        
+        @media (max-width: 550px) {
+            div.sidebar {
+                animation: 5s expand linear infinite;
+            }
+            div.child {
+                flex-basis: 100%;
+            }
+        }
+        
+        @keyframes expand {
+            0% {
+                flex-basis: 0%;
+            }
+            100% {
+                flex-basis: 50%;
+            }
+        }
     </style>
+
 </head>
 
 <body>
