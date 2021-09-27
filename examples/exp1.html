@@ -9,23 +9,28 @@
     <title>Todo list</title>
     <style>
         div.parent {
-            background: #111;
-            color: #fff;
+            display: flex;
+            align-items: stretch;
+            background-color: #111;
+            height: 400px;
         }
         
-        @media (max-width: 500px) {
-            div.parent {
-                background: #ffbf00;
-                color: #fff;
-            }
+        div.child {
+            background-color: #ffbf00;
+            flex-basis: 80%;
+        }
+        
+        div.sidebar {
+            background-color: crimson;
+            flex-basis: 20%;
         }
     </style>
 </head>
 
 <body>
     <div class="parent">
-        <h1>I'm a heading</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, officia quibusdam? Debitis perferendis veritatis quam inventore fuga, porro enim impedit dolore natus adipisci! Repellat voluptatem voluptatum non consectetur nobis esse.
+        <div class="sidebar"></div>
+        <div class="child"></div>
     </div>
 </body>
 
