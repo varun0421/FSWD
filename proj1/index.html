@@ -6,26 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     
 </head>
 <body>
     <header>
+        <section class="todolist">
+          <div class="topbar">
+            <h2>Todo List <input type="checkbox" id="switch" />
+              <label class="switch-label" for="switch">Toggle</label>
+            </h2>
+            <div class="list">
+              <div class="list-item">
+                <input placeholder="Add a task to the list" type="text">
+                <i class="fa fa-plus"></i>
+              </div>
 
+            
+          <ol class="todo-list">
+            <div class="taskbar list-item">
+              <div>                
+              </div>
+              <div style="display: flex">
+                <div class="active" id="all">All</div>
+                <div id="pending">Pending</div>
+                <div id="complete">Completed</div>
+              </div>
+              <div class="clear">Clear</div>
+            </div>
+            <div class="items"></div>
+          </ol>
+              
+
+            </div>
+          </div>
+        </section>
     </header>
+
+
+
+
+
+
+
     <footer>
         <div>
-            <a href="#">Sai Varun</a>
+            <a target="_blank" href="#">Sai Varun</a>
         </div>
-        <div>
+        
+        <div class="icons">
             <a href="https://github.com/varun0421">
-                <img class="social" src="./assests/github.png" alt="">
+              <i class="fa fa-github"></i>              
             </a>
             <a href="https://instagram.com/viki_.i.d.a__?utm_medium=copy_link">
-                <img class="social" src="./assests/instagram.png" alt="">
+              <i class="fa fa-instagram"></i>
             </a>
             <a href="https://www.linkedin.com/in/sai-varun-karnati/">
-                <img class="social" src="./assests/linkedin.png" alt="">
+              <i class="fa fa-linkedin"></i>
             </a>
         </div>
     </footer>
