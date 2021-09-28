@@ -31,3 +31,8 @@ console.log('T || T', true || true)
 console.log('T || F', true || false)
 console.log('F || T', false || true)
 console.log('F || F', false || false)
+
+g = 5
+h = 6
+console.log('g & h', g & h)
+console.log('g | h', g | h)
