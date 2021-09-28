@@ -75,7 +75,7 @@ div.list-item input:focus {
 ol.todo-list {
     margin-top: 50px;
     max-height: 500px;
-    overflow-y:scroll;
+    overflow-y:hidden;
     background-color: #fdfdfd;
     border-radius: 10px;
     display: block;
