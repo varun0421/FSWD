@@ -1,9 +1,9 @@
 var list = document.querySelector('ul')
-console.log(list)
-var list1 = document.querySelector('ol')
-console.log(list1)
 
-var arr = ['Go to The GYM','cook','Eat']
-for(i = 0;i<arr.length;i++){
-    console.log(arr[i])
+var arr = ['GYM', 'cook','EAT']
+for (var i = 0; i < arr.length ;i++) {
+    var element = document.createElement('li')
+    var textNode = document.createTextNode(arr[i])
+    element.appendChild(textNode)
+    list.appendChild(element)
 }
