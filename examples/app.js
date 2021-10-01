@@ -1,3 +1,18 @@
-var arr=[1,2,3,4,"nmbr"]
-arr.push(4)
-console.log(arr.length)
+//function greet(Name){
+    //console.log(Name)
+    //console.log('Hello')
+//}
+//greet('Anisha,19')
+
+// function add(a=0,b=0){
+    // sum = a + b
+    // return sum
+// }
+
+var add = (a=0,b=0) => {
+    sum = a + b
+    return sum
+}
+
+
+console.log(add(10,20))
