@@ -1,7 +1,8 @@
-var arr=['GYM','COOK','EAT']
+var button = document.querySelector('button')
+var buody = document.querySelector('body')
 
 
-arr.forEach((Element,index) => {
-    console.log(Element,index)
-
-})
+const callbackfunc = (event) => {
+    buody.classList.toggle('dark')    
+}
+button.addEventListener ('click', callbackfunc)
